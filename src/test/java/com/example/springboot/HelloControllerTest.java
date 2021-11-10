@@ -28,4 +28,9 @@ class HelloControllerTest {
             .andExpect(status().isOk())
             .andExpect(content().string("Greetings from Spring Boot + Tanzu!"));
     }
+    
+    @Test
+    void epicFail() {
+        assertTrue("Deliberate failure!", false);
+    }
 }

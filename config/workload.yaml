@@ -7,8 +7,9 @@ metadata:
     app.kubernetes.io/part-of: tanzu-java-web-app
 spec:
   params:
-    - name: run-image
-      value: your-registry.io/project/tanzu-java-web-app
+  - name: annotations
+    value:
+      autoscaling.knative.dev/minScale: "1"
   source:
     git:
       url: https://github.com/sample-accelerators/tanzu-java-web-app

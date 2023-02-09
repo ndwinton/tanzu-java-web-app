@@ -1,0 +1,8 @@
+kind: User
+metadata:
+  name: john
+spec:
+  profile:
+    displayName: John von Neumann
+    email: john.von.neumann@ams.org
+  memberOf: [default-team, admins]

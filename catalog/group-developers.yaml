@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: developers
+  description: Developers Team
+spec:
+  type: team
+  profile:
+    displayName: developers
+  parent: default-org
+  children: []

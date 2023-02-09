@@ -6,6 +6,4 @@ spec:
   profile:
     displayName: Ada Lovelace
     email: ada@analytical.eng
-    #picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
   memberOf: [default-team, developers]
-apiVersion: backstage.io/v1alpha1
